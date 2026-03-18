@@ -122,9 +122,9 @@ export default function Contacto() {
             </div>
           </div>
 
-          <div className="bg-[#1F1F1F] p-2 rounded-lg overflow-hidden h-full min-h-[400px]">
+          <div className="relative bg-[#1F1F1F] p-2 rounded-lg overflow-hidden h-full min-h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.4!2d-84.05324!3d9.94686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDguNyJOIDg0wrAwMycxMS43Ilc!5e0!3m2!1ses!2scr!4v1234567890&q=XW3W%2BQ74%2C+San+Jos%C3%A9%2C+La+Guaria%2C+Costa+Rica"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.09999999999997!2d-84.05333333333334!3d9.946944444444445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDkuMCJOIDg0wrAwMycxMi4wIlc!5e0!3m2!1ses!2scr!4v1710000000000!5m2!1ses!2scr&q=XW3W+Q74,+San+José,+La+Guaria,+Costa+Rica"
               width="100%"
               height="100%"
               style={{ border: 0, borderRadius: '0.5rem', minHeight: '400px' }}
@@ -132,6 +132,17 @@ export default function Contacto() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
+            <a
+              href="https://maps.app.goo.gl/gVxN4aSW68i24uF77"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute bottom-6 right-6 bg-[#C9A96E] text-black px-4 py-2 rounded-lg font-medium text-sm hover:bg-[#D4B77E] transition-all duration-300 shadow-lg flex items-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              Abrir en Google Maps
+            </a>
           </div>
         </div>
 
