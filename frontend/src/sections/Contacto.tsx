@@ -124,7 +124,7 @@ export default function Contacto() {
 
           <div className="bg-[#1F1F1F] p-2 rounded-lg overflow-hidden h-full min-h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.6087437887577!2d-84.05!3d9.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e4fa0!2sLa%20Guaria%2C%20Guadalupe%2C%20San%20Jos%C3%A9!5e0!3m2!1sen!2scr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.4!2d-84.05324!3d9.94686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDguNyJOIDg0wrAwMycxMS43Ilc!5e0!3m2!1ses!2scr!4v1234567890&q=XW3W%2BQ74%2C+San+Jos%C3%A9%2C+La+Guaria%2C+Costa+Rica"
               width="100%"
               height="100%"
               style={{ border: 0, borderRadius: '0.5rem', minHeight: '400px' }}
