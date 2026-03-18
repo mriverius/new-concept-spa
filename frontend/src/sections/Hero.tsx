@@ -10,7 +10,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -29,30 +29,21 @@ export default function Hero() {
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 tracking-tight leading-tight"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
-          Elevate Your Beauty &<br />
-          <span className="text-[#C9A96E]">Wellness Experience</span>
+          Eleva tu experiencia de<br />
+          <span className="text-[#C9A96E]">belleza y bienestar</span>
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl mb-12 text-gray-200 max-w-3xl mx-auto font-light leading-relaxed">
-          Luxury treatments, expert care, and total relaxation in one place
+          Tratamientos de lujo, atención experta y relajación total en un solo lugar
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <div className="flex justify-center items-center">
           <a
-            href="#services"
-            className="group relative px-10 py-4 bg-[#C9A96E] text-black font-medium text-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A96E]/50"
+            href="#contacto"
+            className="group relative px-12 py-5 bg-[#C9A96E] text-black font-semibold text-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#C9A96E]/60 hover:scale-105"
           >
-            <span className="relative z-10">Book Now</span>
+            <span className="relative z-10">Agendar cita</span>
             <div className="absolute inset-0 bg-[#D4B77E] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
-          </a>
-
-          <a
-            href="https://wa.me/50612345678"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group px-10 py-4 border-2 border-[#C9A96E] text-[#C9A96E] font-medium text-lg transition-all duration-300 hover:bg-[#C9A96E] hover:text-black"
-          >
-            Chat on WhatsApp
           </a>
         </div>
       </div>

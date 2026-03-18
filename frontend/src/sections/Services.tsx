@@ -5,30 +5,30 @@ import { useState } from 'react';
 const services = [
   {
     id: 1,
-    title: 'Hair',
-    subtitle: 'Men & Women',
-    description: 'Expert cuts, coloring, and styling crafted to enhance your natural beauty with precision and artistry.',
+    title: 'Cabello',
+    subtitle: 'Hombres y Mujeres',
+    description: 'Cortes expertos, coloración y peinados diseñados para realzar tu belleza natural con precisión y arte.',
     icon: '✂️',
   },
   {
     id: 2,
-    title: 'Barbering',
-    subtitle: 'Classic & Modern',
-    description: 'Traditional barbering techniques meet contemporary style for the modern gentleman.',
+    title: 'Barbería',
+    subtitle: 'Clásico y Moderno',
+    description: 'Técnicas tradicionales de barbería combinadas con estilo contemporáneo para el caballero moderno.',
     icon: '💈',
   },
   {
     id: 3,
-    title: 'Nails',
-    subtitle: 'Manicure & Pedicure',
-    description: 'Immaculate nail care and artistry that transforms your hands and feet into works of elegance.',
+    title: 'Uñas',
+    subtitle: 'Manicure y Pedicure',
+    description: 'Cuidado impecable de uñas y arte que transforma tus manos y pies en obras de elegancia.',
     icon: '💅',
   },
   {
     id: 4,
-    title: 'Spa Treatments',
-    subtitle: 'Relax & Rejuvenate',
-    description: 'Indulgent therapies designed to restore balance, vitality, and inner peace to body and mind.',
+    title: 'Tratamientos Spa',
+    subtitle: 'Relájate y Rejuvenece',
+    description: 'Terapias indulgentes diseñadas para restaurar equilibrio, vitalidad y paz interior a cuerpo y mente.',
     icon: '🌿',
   },
 ];
@@ -37,17 +37,17 @@ export default function Services() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
-    <section id="services" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#0B0B0B]">
+    <section id="servicios" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#0B0B0B]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2
             className="text-4xl sm:text-5xl lg:text-6xl mb-6 tracking-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Our <span className="text-[#C9A96E]">Services</span>
+            Nuestros <span className="text-[#C9A96E]">Servicios</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
-            Discover a world of premium treatments tailored to your unique needs
+            Descubre un mundo de tratamientos premium diseñados para tus necesidades únicas
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Services() {
                     hoveredCard === service.id ? 'translate-x-2 opacity-100' : 'translate-x-0 opacity-0'
                   }`}
                 >
-                  <span className="text-sm font-medium">Learn More</span>
+                  <span className="text-sm font-medium">Ver más</span>
                   <svg
                     className="w-4 h-4 ml-2"
                     fill="none"

@@ -11,28 +11,28 @@ export default function Footer() {
               New Concept Spa
             </h3>
             <p className="text-gray-400 text-sm">
-              Luxury Beauty & Wellness
+              Belleza y Bienestar de Lujo
             </p>
           </div>
 
           <div>
-            <h4 className="text-lg mb-3 font-medium">Location</h4>
+            <h4 className="text-lg mb-3 font-medium">Ubicación</h4>
             <p className="text-gray-400 text-sm">
               Moravia, Costa Rica
             </p>
           </div>
 
           <div>
-            <h4 className="text-lg mb-3 font-medium">Contact</h4>
+            <h4 className="text-lg mb-3 font-medium">Contacto</h4>
             <p className="text-gray-400 text-sm">
-              Coming Soon
+              Próximamente
             </p>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} New Concept Spa. All rights reserved.
+            © {new Date().getFullYear()} New Concept Spa. Todos los derechos reservados.
           </p>
         </div>
       </div>
