@@ -5,10 +5,8 @@ import { useState, useEffect } from 'react';
 const menuItems = [
   { name: 'Inicio', href: '#inicio' },
   { name: 'Servicios', href: '#servicios' },
-  { name: 'Galería', href: '#galeria' },
   { name: 'Nosotros', href: '#nosotros' },
   { name: 'Contacto', href: '#contacto' },
-  { name: 'Blog', href: '#blog' },
 ];
 
 export default function Navbar() {

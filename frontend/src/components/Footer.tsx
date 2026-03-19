@@ -2,7 +2,6 @@ export default function Footer() {
   const menuLinks = [
     { name: 'Inicio', href: '#inicio' },
     { name: 'Servicios', href: '#servicios' },
-    { name: 'Galería', href: '#galeria' },
     { name: 'Nosotros', href: '#nosotros' },
     { name: 'Contacto', href: '#contacto' },
   ];
