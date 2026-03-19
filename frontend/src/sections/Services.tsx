@@ -87,16 +87,16 @@ export default function Services() {
 
   return (
     <>
-      <section id="servicios" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#0B0B0B]">
+      <section id="servicios" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <h2
-              className="text-4xl sm:text-5xl lg:text-6xl mb-6 tracking-tight"
+              className="text-4xl sm:text-5xl lg:text-6xl mb-6 tracking-tight text-gray-900"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Nuestros <span className="text-[#C9A96E]">Servicios</span>
             </h2>
-            <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
               Descubre un mundo de tratamientos premium diseñados para tus necesidades únicas
             </p>
           </div>

@@ -2,23 +2,23 @@
 
 export default function Contacto() {
   return (
-    <section id="contacto" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#0B0B0B]">
+    <section id="contacto" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2
-            className="text-4xl sm:text-5xl lg:text-6xl mb-6 tracking-tight"
+            className="text-4xl sm:text-5xl lg:text-6xl mb-6 tracking-tight text-gray-900"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             <span className="text-[#C9A96E]">Contáctanos</span>
           </h2>
-          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
             Estamos aquí para atenderte y hacer realidad tu experiencia de belleza ideal
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-8">
-            <div className="bg-[#1F1F1F] p-8 rounded-lg transition-all duration-300 hover:bg-[#2A2A2A]">
+            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -42,10 +42,10 @@ export default function Contacto() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Dirección
                   </h3>
-                  <p className="text-gray-400 leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed">
                     La Guaria, Guadalupe<br />
                     San José, Costa Rica
                   </p>
@@ -53,7 +53,7 @@ export default function Contacto() {
               </div>
             </div>
 
-            <div className="bg-[#1F1F1F] p-8 rounded-lg transition-all duration-300 hover:bg-[#2A2A2A]">
+            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -71,19 +71,19 @@ export default function Contacto() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Teléfonos
                   </h3>
                   <div className="space-y-1">
                     <a
                       href="tel:+50622355684"
-                      className="block text-gray-400 hover:text-[#C9A96E] transition-colors duration-300"
+                      className="block text-gray-600 hover:text-[#C9A96E] transition-colors duration-300"
                     >
                       2235-5684
                     </a>
                     <a
                       href="tel:+50622357313"
-                      className="block text-gray-400 hover:text-[#C9A96E] transition-colors duration-300"
+                      className="block text-gray-600 hover:text-[#C9A96E] transition-colors duration-300"
                     >
                       2235-7313
                     </a>
@@ -92,7 +92,7 @@ export default function Contacto() {
               </div>
             </div>
 
-            <div className="bg-[#1F1F1F] p-8 rounded-lg transition-all duration-300 hover:bg-[#2A2A2A]">
+            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -110,10 +110,10 @@ export default function Contacto() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Horario
                   </h3>
-                  <div className="text-gray-400 space-y-1">
+                  <div className="text-gray-600 space-y-1">
                     <p>Lunes a Viernes: 6:00am – 6:00pm</p>
                     <p>Sábado: 8:00am – 4:00pm</p>
                   </div>
@@ -122,9 +122,9 @@ export default function Contacto() {
             </div>
           </div>
 
-          <div className="relative bg-[#1F1F1F] p-2 rounded-lg overflow-hidden h-full min-h-[400px]">
+          <div className="bg-[#F8F8F8] p-2 rounded-lg overflow-hidden h-full min-h-[400px] border border-gray-200">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.09999999999997!2d-84.05333333333334!3d9.946944444444445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDkuMCJOIDg0wrAwMycxMi4wIlc!5e0!3m2!1ses!2scr!4v1710000000000!5m2!1ses!2scr&q=XW3W+Q74,+San+José,+La+Guaria,+Costa+Rica"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.09999999999997!2d-84.05333333333334!3d9.946944444444445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDkuMCJOIDg0wrAwMycxMi4wIlc!5e0!3m2!1ses!2scr!4v1710000000000!5m2!1ses!2scr&q=XW3W+Q74,+San+Jos%C3%A9,+La+Guaria,+Costa+Rica"
               width="100%"
               height="100%"
               style={{ border: 0, borderRadius: '0.5rem', minHeight: '400px' }}
