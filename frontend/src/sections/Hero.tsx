@@ -26,7 +26,7 @@ export default function Hero() {
         }`}
       >
         <h1
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 tracking-tight leading-tight"
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 tracking-tight leading-tight text-white"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           Eleva tu experiencia de<br />

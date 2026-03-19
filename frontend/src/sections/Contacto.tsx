@@ -2,7 +2,7 @@
 
 export default function Contacto() {
   return (
-    <section id="contacto" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
+    <section id="contacto" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#F5F3F0]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2
@@ -18,7 +18,7 @@ export default function Contacto() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-8">
-            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
+            <div className="bg-[#EEEAE5] p-8 rounded-lg transition-all duration-300 hover:bg-[#E5E0DA] border border-gray-300">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -53,7 +53,7 @@ export default function Contacto() {
               </div>
             </div>
 
-            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
+            <div className="bg-[#EEEAE5] p-8 rounded-lg transition-all duration-300 hover:bg-[#E5E0DA] border border-gray-300">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -92,7 +92,7 @@ export default function Contacto() {
               </div>
             </div>
 
-            <div className="bg-[#F8F8F8] p-8 rounded-lg transition-all duration-300 hover:bg-[#F0F0F0] border border-gray-200">
+            <div className="bg-[#EEEAE5] p-8 rounded-lg transition-all duration-300 hover:bg-[#E5E0DA] border border-gray-300">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 p-3 bg-[#C9A96E]/10 rounded-full">
                   <svg
@@ -122,7 +122,7 @@ export default function Contacto() {
             </div>
           </div>
 
-          <div className="bg-[#F8F8F8] p-2 rounded-lg overflow-hidden h-full min-h-[400px] border border-gray-200">
+          <div className="bg-[#EEEAE5] p-2 rounded-lg overflow-hidden h-full min-h-[400px] border border-gray-300">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.09999999999997!2d-84.05333333333334!3d9.946944444444445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDkuMCJOIDg0wrAwMycxMi4wIlc!5e0!3m2!1ses!2scr!4v1710000000000!5m2!1ses!2scr&q=XW3W+Q74,+San+Jos%C3%A9,+La+Guaria,+Costa+Rica"
               width="100%"
