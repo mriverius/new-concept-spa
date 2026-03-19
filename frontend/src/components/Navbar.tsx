@@ -67,10 +67,13 @@ export default function Navbar() {
           <a
             href="#inicio"
             onClick={(e) => handleClick(e, '#inicio')}
-            className="text-2xl font-bold tracking-tight"
-            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="flex items-center"
           >
-            <span className="text-[#C9A96E]">New Concept</span> Spa
+            <img 
+              src="/logo.png" 
+              alt="New Concept Spa" 
+              className="h-12 w-auto"
+            />
           </a>
 
           <div className="hidden md:flex items-center space-x-8">

@@ -11,12 +11,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3
-              className="text-3xl mb-4 text-[#C9A96E]"
-              style={{ fontFamily: "'Playfair Display', serif" }}
-            >
-              New Concept Spa
-            </h3>
+            <img 
+              src="/logo.png" 
+              alt="New Concept Spa" 
+              className="h-16 w-auto mb-4"
+            />
             <p className="text-gray-400 text-sm leading-relaxed">
               Belleza, bienestar y elegancia en un solo lugar
             </p>
