@@ -70,7 +70,7 @@ export default function Navbar() {
             className="flex items-center"
           >
             <img 
-              src="/logo.png" 
+              src="/logoncspa.png" 
               alt="New Concept Spa" 
               className="h-12 w-auto"
             />
