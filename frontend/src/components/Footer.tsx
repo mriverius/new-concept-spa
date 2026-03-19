@@ -14,7 +14,7 @@ export default function Footer() {
             <img 
               src="/logoncspa.png" 
               alt="New Concept Spa" 
-              className="h-16 w-auto mb-4"
+              className="h-20 md:h-24 w-auto mb-6"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
               Belleza, bienestar y elegancia en un solo lugar

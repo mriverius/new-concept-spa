@@ -72,7 +72,7 @@ export default function Navbar() {
             <img 
               src="/logoncspa.png" 
               alt="New Concept Spa" 
-              className="h-12 w-auto"
+              className="h-16 md:h-20 w-auto transition-all duration-300"
             />
           </a>
 
