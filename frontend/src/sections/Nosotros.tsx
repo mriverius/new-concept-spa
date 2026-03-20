@@ -2,7 +2,7 @@
 
 export default function Nosotros() {
   return (
-    <section id="nosotros" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#EEEAE5]">
+    <section id="nosotros" className="py-24 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#DCD7CE]">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="relative h-[400px] lg:h-[600px] overflow-hidden">
@@ -12,7 +12,7 @@ export default function Nosotros() {
                 backgroundImage: "url('https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=2074')",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#EEEAE5] via-transparent to-transparent lg:opacity-60" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#DCD7CE] via-transparent to-transparent lg:opacity-60" />
             </div>
           </div>
 
