@@ -67,8 +67,7 @@ export default function Footer() {
               <div>
                 <p className="text-gray-500 mb-1">Horario:</p>
                 <p className="text-gray-400">
-                  Lun-Vie: 6:00am – 6:00pm<br />
-                  Sábado: 8:00am – 4:00pm
+                  Lunes a Sábado: 8:00 a.m. - 7:00 p.m.
                 </p>
               </div>
             </div>
