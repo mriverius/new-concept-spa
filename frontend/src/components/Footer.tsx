@@ -122,6 +122,9 @@ export default function Footer() {
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()} New Concept Spa. Todos los derechos reservados.
           </p>
+          <p className="text-gray-400 text-xs mt-2">
+            Powered by Bunbytes
+          </p>
         </div>
       </div>
     </footer>

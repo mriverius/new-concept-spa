@@ -114,15 +114,14 @@ export default function Contacto() {
                     Horario
                   </h3>
                   <div className="text-gray-600 space-y-1">
-                    <p>Lunes a Viernes: 6:00am – 6:00pm</p>
-                    <p>Sábado: 8:00am – 4:00pm</p>
+                    <p>Lunes a Sábado: 8:00 a.m. - 7:00 p.m.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#DCD7CE] p-2 rounded-lg overflow-hidden h-full min-h-[400px] border border-gray-400">
+          <div className="bg-[#DCD7CE] p-2 rounded-lg overflow-hidden h-full min-h-[400px] border border-gray-400 relative">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.09999999999997!2d-84.05333333333334!3d9.946944444444445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTYnNDkuMCJOIDg0wrAwMycxMi4wIlc!5e0!3m2!1ses!2scr!4v1710000000000!5m2!1ses!2scr&q=XW3W+Q74,+San+Jos%C3%A9,+La+Guaria,+Costa+Rica"
               width="100%"
@@ -136,7 +135,7 @@ export default function Contacto() {
               href="https://maps.app.goo.gl/gVxN4aSW68i24uF77"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute bottom-6 right-6 bg-[#C9A96E] text-black px-4 py-2 rounded-lg font-medium text-sm hover:bg-[#D4B77E] transition-all duration-300 shadow-lg flex items-center gap-2"
+              className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#C9A96E] text-black px-6 py-3 rounded-lg font-medium text-sm hover:bg-[#D4B77E] transition-all duration-300 shadow-lg flex items-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
