@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   title: "New Concept Spa | Luxury Beauty & Wellness",
   description: "Experience luxury treatments, expert care, and total relaxation at New Concept Spa in Moravia, Costa Rica.",
   icons: {
-    icon: '/logoncs.png',
-    shortcut: '/logoncs.png',
-    apple: '/logoncs.png',
+    icon: '/logoncspa.png',
+    shortcut: '/logoncspa.png',
+    apple: '/logoncspa.png',
   },
 };
 
